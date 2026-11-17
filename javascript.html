@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="DevGuide: aprende a programar passo a passo.">
+<title>JavaScript | DevGuide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><div class="container nav">
+<a class="logo" href="index.html">&lt;/&gt; DevGuide</a>
+<div class="search"><input id="search" type="search" placeholder="Pesquisar tutoriais..." aria-label="Pesquisar tutoriais"><ul id="results"></ul></div>
+<button id="menu-btn" aria-label="Abrir menu" aria-expanded="false">☰</button>
+<nav id="menu" aria-label="Navegação principal">
+<a href="index.html">Início</a>
+<a href="html.html">HTML</a>
+<a href="css.html">CSS</a>
+<a href="javascript.html" class="active" aria-current="page">JavaScript</a>
+<a href="github.html">Git e GitHub</a>
+<a href="faq.html">FAQ</a>
+<a href="about.html">Sobre</a>
+</nav></div></header>
+<main class="container">
+<h1>JavaScript</h1>
+<h2>O que é JavaScript?</h2>
+<p>JavaScript é a linguagem que torna as páginas <strong>interativas</strong>: reage a cliques, valida formulários, mostra mensagens, etc.</p>
+<h2>Variáveis</h2>
+<p>Uma variável guarda um valor com um nome.</p>
+<pre><code>const nome = "Ana";   // não muda
+let idade = 20;       // pode mudar
+idade = 21;</code></pre>
+<h2>Funções</h2>
+<pre><code>function saudar(nome) {
+  return "Olá, " + nome + "!";
+}
+alert(saudar("Ana"));</code></pre>
+<h2>Eventos e interações</h2>
+<p>Um evento é algo que acontece na página, como um clique. Experimenta:</p>
+<button class="btn" id="demo-btn">Clica aqui</button>
+<p id="msg" style="color:#2b44a8"></p>
+<pre><code>const botao = document.getElementById("demo-btn");
+botao.addEventListener("click", () =&gt; {
+  document.getElementById("msg").textContent = "Olá!";
+});</code></pre>
+<p><a class="btn" href="github.html">Próximo: Git e GitHub</a></p>
+</main>
+<footer><div class="container">DevGuide · Trabalho académico sobre o GitHub · Feito por estudantes, para quem está a começar.</div></footer>
+<script src="script.js"></script>
+</body>
+</html>

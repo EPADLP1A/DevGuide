@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="DevGuide: aprende a programar passo a passo.">
+<title>Git e GitHub | DevGuide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><div class="container nav">
+<a class="logo" href="index.html">&lt;/&gt; DevGuide</a>
+<div class="search"><input id="search" type="search" placeholder="Pesquisar tutoriais..." aria-label="Pesquisar tutoriais"><ul id="results"></ul></div>
+<button id="menu-btn" aria-label="Abrir menu" aria-expanded="false">☰</button>
+<nav id="menu" aria-label="Navegação principal">
+<a href="index.html">Início</a>
+<a href="html.html">HTML</a>
+<a href="css.html">CSS</a>
+<a href="javascript.html">JavaScript</a>
+<a href="github.html" class="active" aria-current="page">Git e GitHub</a>
+<a href="faq.html">FAQ</a>
+<a href="about.html">Sobre</a>
+</nav></div></header>
+<main class="container">
+<h1>Git e GitHub</h1>
+<h2>Qual é a diferença?</h2>
+<div class="grid">
+<div class="card"><h3>Git</h3><p>Programa instalado no teu computador que guarda o histórico das alterações ao código.</p></div>
+<div class="card"><h3>GitHub</h3><p>Site online onde se guardam repositórios Git, para partilhar e trabalhar em equipa.</p></div>
+</div>
+<h2>Conceitos principais</h2>
+<ul>
+<li><strong>Repositório:</strong> a pasta do projeto com todo o histórico.</li>
+<li><strong>Commit:</strong> uma "fotografia" das alterações, com uma mensagem.</li>
+<li><strong>Branch:</strong> uma linha de trabalho paralela, para testar sem estragar o projeto principal.</li>
+<li><strong>Issue:</strong> uma tarefa, erro ou ideia registada no GitHub.</li>
+<li><strong>Pull Request:</strong> um pedido para juntar o teu branch ao principal, depois de a equipa rever.</li>
+</ul>
+<h2>Comandos básicos</h2>
+<pre><code>git init                  # cria um repositório
+git add .                 # prepara todas as alterações
+git commit -m "Mensagem"  # guarda as alterações
+git push                  # envia para o GitHub
+git pull                  # traz as alterações do GitHub
+git branch nova-ideia     # cria um branch</code></pre>
+<p class="note">Faz commits pequenos e com mensagens claras, como "Adiciona página de FAQ".</p>
+</main>
+<footer><div class="container">DevGuide · Trabalho académico sobre o GitHub · Feito por estudantes, para quem está a começar.</div></footer>
+<script src="script.js"></script>
+</body>
+</html>

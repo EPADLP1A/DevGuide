@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="DevGuide: aprende a programar passo a passo.">
+<title>HTML | DevGuide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><div class="container nav">
+<a class="logo" href="index.html">&lt;/&gt; DevGuide</a>
+<div class="search"><input id="search" type="search" placeholder="Pesquisar tutoriais..." aria-label="Pesquisar tutoriais"><ul id="results"></ul></div>
+<button id="menu-btn" aria-label="Abrir menu" aria-expanded="false">☰</button>
+<nav id="menu" aria-label="Navegação principal">
+<a href="index.html">Início</a>
+<a href="html.html" class="active" aria-current="page">HTML</a>
+<a href="css.html">CSS</a>
+<a href="javascript.html">JavaScript</a>
+<a href="github.html">Git e GitHub</a>
+<a href="faq.html">FAQ</a>
+<a href="about.html">Sobre</a>
+</nav></div></header>
+<main class="container">
+<h1>HTML</h1>
+<h2>O que é HTML?</h2>
+<p>HTML (HyperText Markup Language) é a linguagem que define a <strong>estrutura</strong> de uma página web. Usa <em>etiquetas</em> (tags) como <code>&lt;p&gt;</code> para dizer ao navegador o que é cada coisa: título, parágrafo, imagem, etc.</p>
+<h2>Estrutura básica</h2>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-PT"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;title&gt;A minha página&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;!-- Tudo o que se vê está aqui --&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<p>O <code>head</code> tem informação sobre a página. O <code>body</code> tem o conteúdo visível.</p>
+<h2>Títulos e parágrafos</h2>
+<pre><code>&lt;h1&gt;Título principal&lt;/h1&gt;
+&lt;h2&gt;Subtítulo&lt;/h2&gt;
+&lt;p&gt;Isto é um parágrafo.&lt;/p&gt;</code></pre>
+<h2>Imagens e links</h2>
+<pre><code>&lt;img src="foto.jpg" alt="Descrição da foto"&gt;
+&lt;a href="https://github.com"&gt;Ir para o GitHub&lt;/a&gt;</code></pre>
+<p class="note">Escreve sempre o atributo <code>alt</code> nas imagens: ajuda quem usa leitores de ecrã.</p>
+<p><a class="btn" href="css.html">Próximo: CSS</a></p>
+</main>
+<footer><div class="container">DevGuide · Trabalho académico sobre o GitHub · Feito por estudantes, para quem está a começar.</div></footer>
+<script src="script.js"></script>
+</body>
+</html>

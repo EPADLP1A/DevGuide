@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="DevGuide: aprende a programar passo a passo.">
+<title>CSS | DevGuide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><div class="container nav">
+<a class="logo" href="index.html">&lt;/&gt; DevGuide</a>
+<div class="search"><input id="search" type="search" placeholder="Pesquisar tutoriais..." aria-label="Pesquisar tutoriais"><ul id="results"></ul></div>
+<button id="menu-btn" aria-label="Abrir menu" aria-expanded="false">☰</button>
+<nav id="menu" aria-label="Navegação principal">
+<a href="index.html">Início</a>
+<a href="html.html">HTML</a>
+<a href="css.html" class="active" aria-current="page">CSS</a>
+<a href="javascript.html">JavaScript</a>
+<a href="github.html">Git e GitHub</a>
+<a href="faq.html">FAQ</a>
+<a href="about.html">Sobre</a>
+</nav></div></header>
+<main class="container">
+<h1>CSS</h1>
+<h2>O que é CSS?</h2>
+<p>CSS (Cascading Style Sheets) define o <strong>aspeto</strong> de uma página: cores, fontes, margens e posição dos elementos.</p>
+<h2>Como adicionar estilos</h2>
+<p>A forma mais organizada é um ficheiro separado, ligado no <code>head</code>:</p>
+<pre><code>&lt;link rel="stylesheet" href="style.css"&gt;</code></pre>
+<h2>Cores e fontes</h2>
+<pre><code>/* seletor { propriedade: valor; } */
+h1 {
+  color: #3b5bdb;
+  font-family: Arial, sans-serif;
+  font-size: 2rem;
+}</code></pre>
+<h2>Margens e espaçamentos</h2>
+<p><code>margin</code> é o espaço por fora de um elemento; <code>padding</code> é o espaço por dentro.</p>
+<pre><code>.caixa {
+  margin: 20px;
+  padding: 16px;
+  background: #eef1ff;
+}</code></pre>
+<p><a class="btn" href="javascript.html">Próximo: JavaScript</a></p>
+</main>
+<footer><div class="container">DevGuide · Trabalho académico sobre o GitHub · Feito por estudantes, para quem está a começar.</div></footer>
+<script src="script.js"></script>
+</body>
+</html>
