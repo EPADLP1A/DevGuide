@@ -40,6 +40,6 @@ Explica aqui, em 2-3 passos, como alguém vê, corre ou lê o teu trabalho.
 | v0.1-mvp | Primeira versão funcional | ✅ Feito |
 | v0.2 | A definir | ⏳ Planeado |
 
-## 📄 Licença
+## [📄 Licença](https://raw.githubusercontent.com/EPADLP1A/DevGuide/refs/heads/mvp/LICENSE)
 
  
