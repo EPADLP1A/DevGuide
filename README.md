@@ -1,6 +1,6 @@
 # DevGuide
 
-> Uma frase a explicar o que o projeto é e para quem serve.
+> Uma plataforma simples para principiantes aprenderem programação (HTML, CSS, JavaScript, Git e GitHub), em português de Portugal. Trabalho académico sobre o GitHub.
 
 ![Estado](https://img.shields.io/badge/estado-MVP-orange)
 ![Versão](https://img.shields.io/badge/versão-v0.1--mvp-blue)
