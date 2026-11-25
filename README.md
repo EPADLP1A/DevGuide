@@ -1,4 +1,4 @@
-# Dev guide
+# DevGuide
 
 > Uma frase a explicar o que o projeto é e para quem serve.
 
