@@ -10,8 +10,8 @@
 Esta é a **versão mínima viável (MVP)** do projeto: o essencial para validar a ideia, antes de crescer.
 
 ### O que já está pronto
-- [x] Funcionalidade / conteúdo 1
-- [x] Funcionalidade / conteúdo 2
+- [x] Pesquisa de Tutoriais
+- [x] Realce de Código
 - [x] Funcionalidade / conteúdo 3
 
 ### O que falta (próximos passos)
