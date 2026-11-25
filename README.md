@@ -1,22 +1,45 @@
-# DevGuide
+# Nome do Projeto
 
-Plataforma simples para principiantes aprenderem programação (HTML, CSS, JavaScript, Git e GitHub), em português de Portugal. Trabalho académico sobre o GitHub.
+> Uma frase a explicar o que o projeto é e para quem serve.
 
-## Funcionalidades
-Menu responsivo · 7 páginas · pesquisa de tutoriais · realce de código · FAQ · botão interativo em JavaScript.
+![Estado](https://img.shields.io/badge/estado-MVP-orange)
+![Versão](https://img.shields.io/badge/versão-v0.1--mvp-blue)
 
-## Tecnologias
-HTML5, CSS3 e JavaScript puro (sem frameworks).
+## 🎯 Sobre o MVP
 
-## Como usar
-1. Descarrega ou clona o repositório.
-2. Abre `index.html` no navegador (duplo clique).
+Esta é a **versão mínima viável (MVP)** do projeto: o essencial para validar a ideia, antes de crescer.
 
-## Estrutura
-`index.html`, `html.html`, `css.html`, `javascript.html`, `github.html`, `faq.html`, `about.html`, `style.css`, `script.js`.
+### O que já está pronto
+- [x] Funcionalidade / conteúdo 1
+- [x] Funcionalidade / conteúdo 2
+- [x] Funcionalidade / conteúdo 3
 
-## Publicar no GitHub Pages
-Settings → Pages → Source: *Deploy from a branch* → `main` / `(root)` → Save. O site fica em `https://<utilizador>.github.io/<repositório>/`.
+### O que falta (próximos passos)
+- [ ] Item futuro 1
+- [ ] Item futuro 2
+- [ ] Item futuro 3
 
-## Equipa
-Preencher em `about.html`.
+## 📁 Estrutura do repositório
+
+```
+.
+├── README.md
+├── LICENSE
+├── .gitignore
+└── (os teus ficheiros aqui)
+```
+
+## 🚀 Como usar
+
+Explica aqui, em 2-3 passos, como alguém vê, corre ou lê o teu trabalho.
+
+## 🗺️ Roadmap
+
+| Versão | Objetivo | Estado |
+|--------|----------|--------|
+| v0.1-mvp | Primeira versão funcional | ✅ Feito |
+| v0.2 | A definir | ⏳ Planeado |
+
+## 📄 Licença
+
+Define a licença que preferires (por exemplo MIT para código, ou CC BY-NC para conteúdo criativo).
