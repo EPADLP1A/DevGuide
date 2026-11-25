@@ -22,12 +22,19 @@ Esta é a **versão mínima viável (MVP)** do projeto: o essencial para validar
 ## 📁 Estrutura do repositório
 
 ```
-.
-├── README.md
+├── CHANGELOG.md
 ├── LICENSE
-├── .gitignore
-└── (os teus ficheiros aqui)
-```
+├── README.md
+├── SECURITY.md
+├── about.html
+├── css.html
+├── faq.html
+├── github.html
+├── html.html
+├── index.html
+├── javascript.html
+├── script.js
+└──style.css
 
 ## 🚀 Como usar
 
