@@ -1,4 +1,4 @@
-# Nome do Projeto
+# Dev guide
 
 > Uma frase a explicar o que o projeto é e para quem serve.
 
